@@ -1,0 +1,26 @@
+﻿@model IEnumerable<PetInsta.Models.Post>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="header-container">
+    <h1>Posts</h1>
+    <button class="create-button" onclick="location.href='@Url.Action("Create", "Posts")'">Create New Post</button>
+</div>
+
+<div class="card-container">
+    @foreach (var item in Model) {
+        <div class="pet-box">    
+            <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="pet-image"/>
+            <div class="pet-items">        
+                <label class="pet-name">@Html.DisplayFor(modelItem => item.Title) </label> <br />
+                <div class="selection-items">
+                    <h4 class="author-name">@Html.DisplayFor(modelItem => item.Author)</h4>
+                    <button class="more-button" onclick="location.href='@Url.Action("Details", "Posts", new {id = item.PostId})'">More...</button>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>

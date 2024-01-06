@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetInsta", "PetInsta\PetInsta.csproj", "{E274A4B6-7701-4811-8CF9-1630357B51A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E274A4B6-7701-4811-8CF9-1630357B51A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E274A4B6-7701-4811-8CF9-1630357B51A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E274A4B6-7701-4811-8CF9-1630357B51A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E274A4B6-7701-4811-8CF9-1630357B51A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B178DD7-32BF-4147-9C7B-10EBDB37BC08}
+	EndGlobalSection
+EndGlobal

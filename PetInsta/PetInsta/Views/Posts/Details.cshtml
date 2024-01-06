@@ -1,0 +1,25 @@
+﻿@model PetInsta.Models.Post
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<button class="create-button" onclick="location.href='@Url.Action("Index", "Posts")'">Back to Posts</button>
+
+<div style="align-items: center; text-align: center; justify-content: center;">
+    <h1>Details</h1>
+    <h1>Post</h1>
+
+    <hr />
+
+    <div style="background-color: dimgray; border-radius: 15px;">
+        <h1>@Html.DisplayFor(model => model.Title)</h1>
+        <h4>@Html.DisplayFor(model => model.Description)</h4>
+        <img src="@Html.DisplayFor(model => model.ImageUrl)" class="post-image"/>
+        <h2 style="background-color: darkgray; border-radius: 15px; padding: 15px; margin-top: 15px;">@Html.DisplayFor(model => model.Contents)</h2>
+    </div>
+    <div>
+        <button class="create-button" onclick="location.href='@Url.Action("Details", "Pets", new {Id = Model.Pet})'">Got to @Html.DisplayFor(model => model.Author)'s Pet Account</button>
+    </div>
+
+</div>
