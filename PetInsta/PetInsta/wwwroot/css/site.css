@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
 html {
     font-size: 14px;
 }
@@ -19,8 +21,11 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: linear-gradient(darkblue, white);
+    background-image: linear-gradient(rgb(49, 163, 152), white);
     color: white;
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .create-button
@@ -49,10 +54,10 @@ body {
 .pet-box
 {
     background-color: white;
-    border: solid;
+    border: none;
     width: 200px;
     height: 350px;
-    border-color: black;
+    border-radius: 15px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -61,6 +66,7 @@ body {
 .pet-box:hover
 {
     margin: 0 10px 0 10px;
+    border-width: 8px;
     border-color: lightblue;
     box-shadow: 0 0 1px 2px white;
 }
@@ -76,12 +82,11 @@ body {
 {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(black);
-    background-color: black;
+    background-color: #2b5763;
 }
 .pet-box:hover .pet-items
 {
-    background-image: linear-gradient(lightgray, black);
+    background-image: linear-gradient(lightgray, #568d9c);
 }
 
 .pet-name
@@ -102,15 +107,45 @@ body {
     border-radius: 15px;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
 
 .more-button:hover
 {
     background: white;
     color: black;
 }
+
+.more-button-pets
+{
+    background-color: darkgray;
+    border: solid;
+    border-color: white;
+    width: 75px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 15px;
+}
+
+
+.more-button-pets:hover
+{
+    background: white;
+    color: black;
+}
+
 
 .selection-items
 {
@@ -192,6 +227,14 @@ body {
     border: none;
     background-color: white;
     position: relative;
+}
+
+.switch-button
+{
+    border: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
 }
 
 .inner-image

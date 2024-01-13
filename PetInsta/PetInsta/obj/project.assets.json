@@ -7993,19 +7993,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yairs\\.nuget\\packages\\": {}
+    "C:\\Users\\Magshimim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yairs\\OneDrive\\מסמכים\\Projects\\C#\\PetInsta\\PetInsta\\PetInsta.csproj",
+      "projectUniqueName": "C:\\Users\\Magshimim\\Documents\\YairShafran\\MegamatMachshevim\\final-project\\PetsInsta\\PetInsta\\PetInsta\\PetInsta.csproj",
       "projectName": "PetInsta",
-      "projectPath": "C:\\Users\\yairs\\OneDrive\\מסמכים\\Projects\\C#\\PetInsta\\PetInsta\\PetInsta.csproj",
-      "packagesPath": "C:\\Users\\yairs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yairs\\OneDrive\\מסמכים\\Projects\\C#\\PetInsta\\PetInsta\\obj\\",
+      "projectPath": "C:\\Users\\Magshimim\\Documents\\YairShafran\\MegamatMachshevim\\final-project\\PetsInsta\\PetInsta\\PetInsta\\PetInsta.csproj",
+      "packagesPath": "C:\\Users\\Magshimim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Magshimim\\Documents\\YairShafran\\MegamatMachshevim\\final-project\\PetsInsta\\PetInsta\\PetInsta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yairs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Magshimim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

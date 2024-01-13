@@ -20,7 +20,7 @@
                         <label class="likes-count">@Html.DisplayFor(modelItem => item.Likes)</label>                
                         <img src="https://clipart-library.com/images/di9KjrgpT.png" class="like-image"/>
                     </div>
-                    <button class="more-button" onclick="location.href='@Url.Action("Details", "Pets", new {id = item.Id})'">More...</button>
+                    <button class="more-button-pets" onclick="location.href='@Url.Action("Details", "Pets", new {id = item.Id})'">More...</button>
                 </div>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>

@@ -17,91 +17,91 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PetInsta
 build_property.RootNamespace = PetInsta
-build_property.ProjectDir = C:\Users\yairs\OneDrive\מסמכים\Projects\C#\PetInsta\PetInsta\
+build_property.ProjectDir = C:\Users\Magshimim\Documents\YairShafran\MegamatMachshevim\final-project\PetsInsta\PetInsta\PetInsta\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yairs\OneDrive\מסמכים\Projects\C#\PetInsta\PetInsta
+build_property.MSBuildProjectDirectory = C:\Users\Magshimim\Documents\YairShafran\MegamatMachshevim\final-project\PetsInsta\PetInsta\PetInsta
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Home/Index.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Home/Privacy.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/PetsAdmin/Create.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/PetsAdmin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c0FkbWluXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/PetsAdmin/Delete.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/PetsAdmin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c0FkbWluXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/PetsAdmin/Details.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/PetsAdmin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c0FkbWluXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/PetsAdmin/Edit.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/PetsAdmin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c0FkbWluXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/PetsAdmin/Index.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/PetsAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c0FkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Pets/Create.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Pets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Pets/Details.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Pets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Pets/Index.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Pets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Posts/Create.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Posts/Delete.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Posts/Details.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Posts/Edit.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Posts/Index.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Shared/Error.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/_ViewImports.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/_ViewStart.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yairs/OneDrive/מסמכים/Projects/C\#/PetInsta/PetInsta/Views/Shared/_Layout.cshtml]
+[C:/Users/Magshimim/Documents/YairShafran/MegamatMachshevim/final-project/PetsInsta/PetInsta/PetInsta/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-44gh0voium
