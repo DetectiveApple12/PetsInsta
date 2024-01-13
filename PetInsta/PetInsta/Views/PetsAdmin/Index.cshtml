@@ -16,9 +16,9 @@
             <div class="pet-items">        
                 <label class="pet-name">@Html.DisplayFor(modelItem => item.Name) </label> <br />
                 <div class="selection-items">
-                    <div class="like-button">
-                        <label class="likes-count">@Html.DisplayFor(modelItem => item.Likes)</label>                
-                        <img src="https://clipart-library.com/images/di9KjrgpT.png" class="like-image"/>
+                    <div class="like-button-out">
+                        <label class="likes-count-out">@Html.DisplayFor(modelItem => item.Likes)</label>                
+                        <img src="https://clipart-library.com/images/di9KjrgpT.png" class="like-image-out"/>
                     </div>
                     <button class="more-button-pets" onclick="location.href='@Url.Action("Details", "Pets", new {id = item.Id})'">More...</button>
                 </div>

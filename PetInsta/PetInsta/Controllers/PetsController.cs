@@ -118,6 +118,21 @@ namespace PetInsta.Controllers
             return View(pet);
         }
 
+        [HttpPost]
+        public IActionResult Like(int id)
+        {
+            var pet = _context.Pet.Find(id);
+
+            if (pet != null)
+            {
+                // Increment the likes
+                pet.Likes++;
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Details", new { id = id });    
+        }
+
         // GET: Pets/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

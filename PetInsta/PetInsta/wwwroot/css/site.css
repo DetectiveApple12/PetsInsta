@@ -203,6 +203,8 @@ body {
     flex-direction: row;
     width: 75px;
     height: 75px;
+    pointer-events: none;
+    margin-left: 47%;
 }
 
 
@@ -215,6 +217,7 @@ body {
     object-fit: contain;
     position: absolute;
     z-index: 1;
+    pointer-events: none;
 
 }
 
@@ -225,7 +228,42 @@ body {
     color: black;
     position: relative;
     z-index: 2;
+    pointer-events: none;
 }
+
+.like-button-out
+{
+    display: flex;
+    flex-direction: row;
+    width: 75px;
+    height: 75px;
+    pointer-events: none;
+}
+
+
+.like-image-out
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+.likes-count-out
+{
+    margin-top: 35px;
+    margin-left: 43px;
+    color: black;
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
 
 .card-container
 {
