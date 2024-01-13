@@ -19,7 +19,22 @@
                 <img src="https://clipart-library.com/images/di9KjrgpT.png" class="like-image"/>
             </div>
         </div>
- <br />
+
+		<div class="card-container">
+			@foreach (var item in ViewBag.Posts)
+			{
+				<div class="pet-box">    
+					<img src="@item.ImageUrl" class="pet-image"/>
+					<div class="pet-items">        
+						<label class="pet-name">@item.Title </label> <br />
+						<div class="selection-items">
+							<button class="more-button-in" onclick="location.href='@Url.Action("Details", "Posts", new {id = item.PostId})'">More...</button>
+						</div>
+					</div>
+				</div>
+			}
+        </div>
+        <br />
     </div>
     <div>
         <a asp-action="Index">Back to Pets</a>

@@ -21,7 +21,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: linear-gradient(rgb(49, 163, 152), white);
+    background-image: linear-gradient(135deg, rgb(49, 163, 152), white);
     color: white;
     font-family: "Salsa", cursive;
     font-weight: 400;
@@ -82,7 +82,7 @@ body {
 {
     width: 100%;
     height: 100%;
-    background-color: #2b5763;
+    background-image: linear-gradient(lightblue, #2b5763);
 }
 .pet-box:hover .pet-items
 {
@@ -111,6 +111,28 @@ body {
 }
 
 
+.pet-button
+{
+    background-color: darkgray;
+    border: solid;
+    border-color: white;
+    width: 75px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pet-button:hover
+{
+    background: white;
+    color: black;
+}
+
+
 .logo
 {
     width: 50px;
@@ -136,7 +158,7 @@ body {
     border-radius: 15px;
     margin-top: 20px;
     transition: all 0.3s ease-in-out;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 
@@ -145,6 +167,28 @@ body {
     background: white;
     color: black;
 }
+
+.more-button-in
+{
+    background-color: darkgray;
+    border: solid;
+    border-color: white;
+    width: 160px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+
+.more-button-in:hover
+{
+    background: white;
+    color: black;
+}
+
 
 
 .selection-items

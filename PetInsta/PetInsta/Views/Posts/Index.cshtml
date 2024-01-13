@@ -16,7 +16,7 @@
             <div class="pet-items">        
                 <label class="pet-name">@Html.DisplayFor(modelItem => item.Title) </label> <br />
                 <div class="selection-items">
-                    <h4 class="author-name">@Html.DisplayFor(modelItem => item.Author)</h4>
+                    <button class="pet-button" onclick="location.href='@Url.Action("Details", "Pets", new {id = item.Pet})'">@Html.DisplayFor(modelItem => item.Author)</button>
                     <button class="more-button" onclick="location.href='@Url.Action("Details", "Posts", new {id = item.PostId})'">More...</button>
                 </div>
             </div>

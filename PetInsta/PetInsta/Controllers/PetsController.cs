@@ -28,6 +28,7 @@ namespace PetInsta.Controllers
         // GET: Pets/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            ViewBag.Posts = _context.Post.ToList();
             if (id == null)
             {
                 return NotFound();
