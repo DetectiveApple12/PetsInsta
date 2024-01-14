@@ -10,7 +10,7 @@
 </div>
 
 <div class="card-container">
-    @foreach (var item in Model) {
+    @foreach (var item in Model.OrderByDescending(model => model.Likes)) {
         <div class="pet-box">    
             <img src="@Html.DisplayFor(modelItem => item.ProfilePhotoUrl)" class="pet-image"/>
             <div class="pet-items">        

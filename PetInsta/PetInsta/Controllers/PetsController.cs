@@ -125,7 +125,6 @@ namespace PetInsta.Controllers
 
             if (pet != null)
             {
-                // Increment the likes
                 pet.Likes++;
                 _context.SaveChanges();
             }

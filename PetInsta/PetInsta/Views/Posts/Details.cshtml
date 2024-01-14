@@ -12,13 +12,25 @@
 
     <hr />
 
-    <div style="background-color: dimgray; border-radius: 15px;">
+    <div style="background-color: #023c4d; border-radius: 15px; padding-left: 40px; padding-right: 40px;">
         <h1>@Html.DisplayFor(model => model.Title)</h1>
         <h4>@Html.DisplayFor(model => model.Description)</h4>
         <img src="@Html.DisplayFor(model => model.ImageUrl)" class="post-image"/>
-        <h2 style="background-color: darkgray; border-radius: 15px; padding: 15px; margin-top: 15px;">@Html.DisplayFor(model => model.Contents)</h2>
+        <h2 style="background-color: white; border-radius: 15px; padding: 15px; margin-top: 15px; color: black;">@Html.DisplayFor(model => model.Contents)</h2>
+		<div style="position: relative; width: 100%; padding-bottom: 20px;">
+        @using (Html.BeginForm("Like", "Posts", FormMethod.Post))
+		{
+			@Html.Hidden("id", Model.PostId)
+			<div class="like-button">
+				<label class="likes-count">@Html.DisplayFor(modelItem => Model.Likes)</label>
+				<img src="https://clipart-library.com/images/di9KjrgpT.png" class="like-image" />
+			</div>
+			<input type="submit" value="" class="like-button-submit" style="border: none; background-color: transparent; position: absolute; width: 50px; height: 50px; position: absolute; top: 20px; left: 49%;" />
+		}
+		</div>
+
     </div>
-    <div>
+    <div style="margin-top: 20px;">
         <button class="create-button" onclick="location.href='@Url.Action("Details", "Pets", new {Id = Model.Pet})'">Got to @Html.DisplayFor(model => model.Author)'s Pet Account</button>
     </div>
 

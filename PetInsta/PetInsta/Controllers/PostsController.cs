@@ -55,16 +55,33 @@ namespace PetInsta.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PostId,Pet,Title,Description,Author,ImageUrl,Contents")] Post post)
+        public async Task<IActionResult> Create([Bind("PostId,Pet,Title,Description,Author,ImageUrl,Contents,Likes")] Post post)
         {
             if (ModelState.IsValid)
             {
+                post.Likes = 0;
                 _context.Add(post);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(post);
         }
+
+
+        [HttpPost]
+        public IActionResult Like(int id)
+        {
+            var post = _context.Post.Find(id);
+
+            if (post != null)
+            {
+                post.Likes++;
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Details", new { id = id });    
+        }
+
 
         // GET: Posts/Edit/5
         public async Task<IActionResult> Edit(int? id)

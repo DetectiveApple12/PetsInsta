@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PetInsta.Data;
 
@@ -10,9 +11,11 @@ using PetInsta.Data;
 namespace PetInsta.Migrations
 {
     [DbContext(typeof(PetInstaContext))]
-    partial class PetInstaContextModelSnapshot : ModelSnapshot
+    [Migration("20240114150606_AddedLikesCommit")]
+    partial class AddedLikesCommit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

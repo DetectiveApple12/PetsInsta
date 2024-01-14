@@ -78,6 +78,15 @@ body {
     object-fit: contain;
 }
 
+.pet-image-details
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 15px;
+    border: solid;
+}
+
 .pet-items
 {
     width: 100%;
@@ -88,6 +97,82 @@ body {
 {
     background-image: linear-gradient(lightgray, #568d9c);
 }
+
+.pet-box-post
+{
+    background-color: white;
+    border: none;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.pet-box-post:hover
+{
+    margin: 0 10px 0 10px;
+    border-width: 8px;
+    border-color: lightblue;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.pet-box-post:hover .pet-items
+{
+    background-image: linear-gradient(lightgray, #568d9c);
+}
+
+
+.pet-box-post-highlight
+{
+    background-color: white;
+    border: none;
+    width: 1300px;
+    height: 450px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.pet-box-post-highlight:hover
+{
+    border-width: 8px;
+    border-color: lightblue;
+    box-shadow: 0 0 1px 2px white;
+}
+
+.pet-items-highlight
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#56768c, #0d2040);
+}
+
+.pet-box-post-highlight:hover .pet-items-highlight
+{
+    background-image: linear-gradient(lightgray, #568d9c);
+}
+
+.pet-image-post-highlight
+{
+    width: 325px;
+    height: 325px;
+    object-fit: contain;
+}
+
+
+.highlight-post
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 
 .pet-name
 {
@@ -190,6 +275,27 @@ body {
 }
 
 
+.pet-button-highlight
+{
+    background-color: darkgray;
+    border: solid;
+    border-color: white;
+    width: 75px;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 510px;
+    margin-right: 15px;
+}
+
+.pet-button-highlight:hover 
+{
+    background: white;
+    color: black;
+}
+
 
 .selection-items
 {
@@ -264,6 +370,47 @@ body {
     pointer-events: none;
 }
 
+
+.like-button-out-post
+{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 75px;
+    height: 75px;
+    pointer-events: none;
+}
+
+
+.like-image-out-post
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+.likes-count-out-post
+{
+    margin-top: 35px;
+    margin-left: 43px;
+    color: black;
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.pet-image-post
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
 
 .card-container
 {

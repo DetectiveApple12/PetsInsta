@@ -9,5 +9,6 @@
         public string Author { get; set; }
         public string ImageUrl { get; set; }
         public string Contents { get; set; }
+        public int Likes { get; set; }
     }
 }
